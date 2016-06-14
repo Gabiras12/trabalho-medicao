@@ -1,9 +1,9 @@
 - Trabalho
 - Introduçao
 - Objetivo
-- metodologia
+- Metodologia
 - Medições Coletadas
-- Experimento
+- Experimentos
 - Dados Coletados
 - Resultados
 - Conclusão
