@@ -362,7 +362,7 @@ foram neutros.
 
 \begin{figure}[H]
   \centering
-  \label{fig:indicador1}
+  \label{fig:indicador2}
   \includegraphics[keepaspectratio=true,scale=0.5]{figuras/indicadorSatisfacao.eps}
   \caption{Geração do Indicador de Satisfação do Usuário}
 \end{figure}
@@ -379,7 +379,25 @@ Com esses resultados o indicador total foi positivo, visto que em somente um ní
 
 \begin{figure}[H]
   \centering
-  \label{fig:indicador1}
+  \label{fig:indicador3}
   \includegraphics[keepaspectratio=true,scale=0.5]{figuras/indicadorFacilidadeUso.eps}
   \caption{Geração do Indicador de Facilidade de Uso}
+\end{figure}
+
+\subsection{Qualidade do resultado do Uso}
+
+Esse indicador busca analisar os dados sobre o número de erros no código e avaliar a qualidade do código gerado pelo
+framework em relação a um código feito manualmente pelo desenvolvedor em outra plataforma. Se o número de erros com o
+framework for menor, o resultado do indicador é 1, se o número for maior é -1 e se for igual é 0. O indicador foi gerado
+através da medição 8, que mediu o número de erros gerados no desenvolvimento no desafio.
+
+Na bateria do cenário 3, onde foi utilizado o framework, em relação a bateria 1 foi observado que, em todos os níveis,
+o número de erros diminuiu, e nos níveis média e alta, o número de erros chegou a 0. Assim, o indicador total foi
+positivo.
+
+\begin{figure}[H]
+  \centering
+  \label{fig:indicador4}
+  \includegraphics[keepaspectratio=true,scale=0.5]{figuras/indicadorQualidadeUso.eps}
+  \caption{Geração do Indicador de Qualidade do resultado do Uso}
 \end{figure}
