@@ -319,12 +319,32 @@ do produto.
 \section{Indicadores}
 
 Uma vez que todas as medições forem coletadas, é necessario a definição de indicadores baseados nessas medições.
-Nesses trabalho foram definidos e cálculados quatro indicadores bases que são insumo para um indicador único que descreve
-a operabilidade e a eficiencia do FF, conforme a imagem \ref{fig:indicadores}
+Nesses trabalho foram definidos e calculados quatro indicadores bases que são insumos para um indicador único que descreve
+a operabilidade e a eficiência do FF, conforme a imagem \ref{fig:indicadores}. Sendo que cada indicador é representado por
+um dos 3 números: -1, 0 e 1. O número -1 significa que o indicador não atingiu o resultado esperado e foi pior que o esperado,
+o número 0 indica que o resultado foi indiferente, e por fim o número 1 indica que o objetivo foi atingido.
 
 \begin{figure}[H]
   \centering
   \label{fig:indicadores}
   \includegraphics[keepaspectratio=true,scale=0.8]{figuras/i.eps}
   \caption{Composição do indicador}
+\end{figure}
+
+\subsection{Produtividade ganha com o uso do produto}
+
+Esse indicador busca representar se a produtividade foi aumentada, reduzida ou não foi afetada. Esses casos são representados
+respectivamente pelos números, 1, -1 e 0. O indicador foi gerado através da medição 4, que busca estimar a produtividade
+dos desenvolvedores no desenvolvimento do desafio proposto, essa medição é gerada a partir das medições 2 e 3, que
+são sobre tamanho e duração.
+
+Na bateria 3, a qual foi utilizado o framework, foi observado, em todos os níveis de experiência, um aumento da
+produtividade em relação aos desenvolvedores da bateria 1, a qual o desenvolvedor não utilizou o framework. Isso
+mostra que o indicador foi positivo, isto é de valor igual a 1.
+
+\begin{figure}[H]
+  \centering
+  \label{fig:indicador1}
+  \includegraphics[keepaspectratio=true,scale=0.4]{figuras/indicadorProdutividade.eps}
+  \caption{Indicador de Produtividade ganha com o uso do produto}
 \end{figure}
